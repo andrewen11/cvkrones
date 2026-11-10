@@ -7,7 +7,7 @@ End-to-end Deep Learning pipeline developed for the **1st Krones Vision AI Chall
 ---
 
 ## System Architecture | Pipeline
-![Pipeline Architecture](./docs/pipeline.svg)
+![Pipeline Architecture](./docs/pipeline.png)
 
 Our solution leverages transfer learning on **EfficientNet-B3** (`384×384` input resolution) with 7 strategic optimizations:
 1. **ROI Cropping (`category_id == 22`):** Parses COCO JSON annotations to crop strictly to the bottle bounding box, eliminating factory background noise.
