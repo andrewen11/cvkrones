@@ -2,12 +2,14 @@
 
 End-to-end Deep Learning pipeline developed for the **1st Krones Vision AI Challenge** (June 2026), automating high-speed inspection of returnable bottles on production lines (Reusable vs. Not Reusable).
 
- **[For more details and insights, view the full Project presentation and roadmap here -> (PDF)](./docs/Krones_Vision_AI_Presentation.pdf)**
+ **[For more details and insights, view the full Project presentation and roadmap here -> (PDF)](./docs/kronesVision.pdf)**
 
 ---
 
 ## System Architecture | Pipeline
-![Pipeline Architecture](./docs/pipeline.png)
+<p align="center">
+  <img src="./docs/pipeline.png" alt="Pipeline Architecture" width="750">
+</p>
 
 Our solution leverages transfer learning on **EfficientNet-B3** (`384×384` input resolution) with 7 strategic optimizations:
 1. **ROI Cropping (`category_id == 22`):** Parses COCO JSON annotations to crop strictly to the bottle bounding box, eliminating factory background noise.
