@@ -2,7 +2,8 @@
 
 End-to-end Deep Learning pipeline developed for the **1st Krones Vision AI Challenge** (June 2026), automating high-speed inspection of returnable bottles on production lines (Reusable vs. Not Reusable).
 
- **[For more details and insights, view the full Project presentation and roadmap here -> (PDF)](./docs/kronesVision.pdf)** \\
+ **[For more details and insights, view the full Project presentation and roadmap here -> (PDF)](./docs/kronesVision.pdf)** 
+ 
  **[For more information regarding the project, rules, format, teams and submissions, please check it out here -> (Kaggle website)](https://www.kaggle.com/competitions/1st-krones-vision-ai-challenge)
 
 ---
