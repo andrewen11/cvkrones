@@ -8,7 +8,7 @@ End-to-end Deep Learning pipeline developed for the **1st Krones Vision AI Chall
 
 ## System Architecture | Pipeline
 <p align="center">
-  <img src="./docs/pipeline.png" alt="Pipeline Architecture" width="750">
+  <img src="./docs/pipeline.png" alt="Pipeline Architecture" width="400">
 </p>
 
 Our solution leverages transfer learning on **EfficientNet-B3** (`384×384` input resolution) with 7 strategic optimizations:
